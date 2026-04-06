@@ -400,7 +400,12 @@ footer {
     border-bottom: 2px solid white;
     font-weight: 500;
     color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
+
+
 
 .policy-press-kit {
     width: 8rem;
@@ -413,6 +418,9 @@ footer {
     border-bottom: 2px solid white;
     font-weight: 500;
     color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .install-guide {
@@ -425,6 +433,9 @@ footer {
    border-bottom: 2px solid white;
     font-weight: 500;
     color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .facebook-twitter-instagram {
