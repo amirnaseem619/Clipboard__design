@@ -53,22 +53,21 @@ header {
     width: 120px;
     height: 120px;
     margin: 0 auto 0 auto;
-    animation: logoFade 1.3s ease-in-out;
+    animation: logoFade 15s cubic-bezier(0.22, 1, 0.36, 1) forwards;
 }
 
 @keyframes logoFade {
-    0% {
-        opacity: 0;
-        transform: scale(0.5) translateY(-50px);
+      0% {
+        opacity: 1;
+        transform: translateY(-120px) scale(0.2);
     }
-
     60% {
         opacity: 1;
-        transform: scale(1.1) translateY(5px);
+        transform: translateY(10px) scale(1.05);
     }
-
     100% {
-        transform: scale(1) translateY(0);
+        opacity: 1;
+        transform: translateY(0) scale(1);
     }
 }
 
